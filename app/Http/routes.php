@@ -92,3 +92,6 @@ Route::get('/test3',function(){
  * 将一组拥有相同属性的路由使用Route门面的group()方法聚合在一起
  * 路由的相同属性包括中间件,前缀
  */
+Route::get('/test',function(){
+    return 'git test';
+});
